@@ -1,0 +1,15 @@
+{
+  "name": "this.wallet",
+  "version": "1.0.1",
+  "description": "This.wallet for this.me.",
+  "main": "index.js",
+  "scripts": {
+    "test": "test"
+  },
+  "keywords": [
+    "crypto",
+    "wallets"
+  ],
+  "author": "suiGn",
+  "license": "MIT"
+}
