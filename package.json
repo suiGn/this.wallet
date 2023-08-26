@@ -1,8 +1,8 @@
 {
   "name": "this.wallet",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "This.wallet for this.me.",
-  "main": "index.js",
+  "main": "wallet.js",
   "scripts": {
     "test": "test"
   },
