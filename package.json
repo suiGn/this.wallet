@@ -10,6 +10,12 @@
     "crypto",
     "wallets"
   ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/suiGn/this.wallet.git"
+  },
+  "homepage": "https://www.npmjs.com/package/this.wallet",
+  "docs": "https://suiGn.github.io/this.wallet",
   "author": "suiGn",
   "license": "MIT",
   "repoType": "NPM Package"
