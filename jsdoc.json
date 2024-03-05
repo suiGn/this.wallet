@@ -1,38 +1,49 @@
 {
   "source": {
-    "include": ["./src", "./index.js"]
+    "include": ["./src", "./index.js", "./README.md"]
   },
   "opts": {
     "destination": "./docs",
-    "template": "../neurons.me/src/assets/better-docs"
+    "template": "../../../../../../Sandbox/dev_tools/assets/better-docs",
+    "readme": "./README.md"
   },
   "templates": {
     "cleverLinks": false,
     "monospaceLinks": false,
     "search": true,
     "default": {
-        "staticFiles": {
-          "include": [
-              "./README.md"
-          ]
-        }
+      "staticFiles": {
+        "include": ["./README.md"]
+      }
     },
     "better-docs": {
-        "name": "This.wallet",
-        "title": "Docs for this.wallet", 
-        "css": "style.css",
-        "trackingCode": "-",
-  "hideGenerator": false,
-        "navLinks": [
-            {
-                "label": "Github",
-                "href": "https://github.com/suiGn/this.wallet"
-            },
-            {
-                "label": "App",
-                "href": "https://neurons.me"
-            }
-        ]
-    }
-}
+      "name": "this.wallet",
+      "title": "this.wallet",
+      "css": "style.css",
+      "trackingCode": "...",
+      "hideGenerator": false,
+      "navLinks": [
+        {
+          "label": "All.This",
+          "href": "https://suign.github.io/all.this/"
+      },
+      {
+        "label": "@Source",
+        "href": "https://suign.github.io/"
+    },
+          {
+              "label": "Github",
+              "href": "https://github.com/suiGn/this.wallet"
+          },
+          {
+              "label": "Cleaker.me",
+              "href": "https://cleaker.me"
+          },
+          {
+            "label": "What is all.this?",
+              "href": "https://www.neurons.me/this"
+          }
+      ]
+        }
+  }
 }
