@@ -1,6 +1,6 @@
 {
   "name": "this.wallet",
-  "version": "1.0.54",
+  "version": "1.0.55",
   "description": "This.wallet for this.me.",
   "main": "index.js",
   "scripts": {
@@ -11,6 +11,7 @@
     "crypto",
     "wallets"
   ],
+  "type": "module",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/suiGn/this.wallet.git"
@@ -20,5 +21,14 @@
   "author": "suiGn",
   "license": "MIT",
   "repoType": "NPM Package",
-  "category": "dataformatter"
+  "category": "dataformatter",
+  "dependencies": {
+    "bip32": "^4.0.0",
+    "bip39": "^3.1.0",
+    "bitcoinjs-lib": "^6.1.6",
+    "ecpair": "^2.1.0",
+    "ethers": "^6.13.2",
+    "stellar-sdk": "^12.2.0",
+    "tiny-secp256k1": "^2.2.3"
+  }
 }
